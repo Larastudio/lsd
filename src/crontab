@@ -1,2 +1,0 @@
-@reboot root env - `cat /etc/environment` /app/dehydrated/dehydrated --cron >> /var/log/cron 2>&1
-@weekly root env - `cat /etc/environment` /app/dehydrated/dehydrated --cron >> /var/log/cron 2>&1
